@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4; /* lighter shade of gray for body background */
+    color: #333; /* dark gray color for text */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* fill the full screen */
+}
+
+h2 {
+    color: #ff6347; /* tomato color for heading */
+}
+
+a:link, a:visited {
+    background-color: #ff6347; /* tomato color for links */
+    color: white;
+    padding: 10px 20px; /* increased padding for larger buttons */
+    margin: 10px; /* add some margin around the links */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px; /* rounded corners for buttons */
+}
+
+a:hover, a:active {
+    background-color: #ff4500; /* darker tomato color on hover */
+}
+
+button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+label {
+    padding: 10px 20px;
+    color: #ff6347;
+}
+
+/* for screens smaller than 600px */
+@media (max-width: 600px) {
+    body {
+        font-size: 18px; /* increase font size for smaller screens */
+    }
+
+    a:link, a:visited, button {
+        padding: 15px 30px; /* increase padding for larger touch targets on small screens */
+    }
+}

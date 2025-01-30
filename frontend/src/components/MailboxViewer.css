@@ -1,0 +1,15 @@
+/* Your App styles go here */
+@media (max-width: 600px) {
+    .StyledContainer {
+      margin-left: 0 !important;
+      padding: '10px';
+    }
+  
+    .StyledDrawer {
+      width: 100%;
+    }
+  
+    .EmailList {
+      width: 100%;
+    }
+  }
